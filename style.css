@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #2F303A;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* ============== header ============== */
+
+.header {
+  width: 100vw;
+  height: 100vh;
+}
+
+.header__top {
+  height: 140px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 60px;
+  height: 60px;
+}
+
+.logo-title {
+  margin-left: 10px;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  color: white;
+  margin-left: 60px;
+}
+
+.header__nav-link:first-child {
+  margin-left: 0;
+}
+
+.header__content-img {
+  width: 602px;
+  height: 850px;
+}
+
+.title {
+  font-size: 72px;
+  line-height: 82px;
+}
+
+.header__description {
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.btn {
+  cursor: pointer;
+  background: #1762A7;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+.header__btn {
+  width: 210px;
+  height: 70px;
+}
+
+/* ============== discover new music ============== */
+
+.discover {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.discover__img-section {
+  margin-left: auto;
+}
+
+.discover__img {
+  width: 529px;
+  height: 529px;
+}
+
+.discover__item {
+  display: flex;
+}
+
+.card {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #202027;
+  width: 140px;
+  height: 150px;
+}
+
+.card__img {
+  width: 60px;
+  height: 60px;
+}
+
+.card__text {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.discover__description {
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.join__title {
+  font-size: 62px;
+  line-height: 82px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.join__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-bottom: 20px;
+  background: #202027;
+  height: 522px;
+  width: 672px;
+}
+
+.join__form-row {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.join__form-group input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 15px 10px 10px;
+  outline: none;
+  margin-bottom: 40px;
+  color: white;
+}
+/* =====================footer=========================*/
+.container--foot{
+  max-width: 1170px;
+  margin:auto;
+  position: relative;
+  bottom: 0;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+
+
