@@ -33,6 +33,7 @@ body {
   width: 80vw;
   margin: 0 auto;
   display: flex;
+
   align-items: center;
 }
 
@@ -144,6 +145,7 @@ body {
   font-size: 36px;
   line-height: 54px;
 }
+/*================Join========================*/
 
 .join__title {
   font-size: 62px;
@@ -157,8 +159,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
-  margin-bottom: 20px;
+  margin: 10px auto;
   background: #202027;
   height: 522px;
   width: 672px;
@@ -170,7 +171,7 @@ body {
   flex-direction: column;
 }
 
-.join__form-group input {
+.join__form-group input,textarea {
   width: 100%;
   background: transparent;
   border: 1px solid #ccc;
@@ -179,6 +180,8 @@ body {
   margin-bottom: 40px;
   color: white;
 }
+
+
 /* =====================footer=========================*/
 .container--foot{
   max-width: 1170px;
@@ -193,8 +196,10 @@ ul{
   list-style: none;
 }
 .footer{
+
+  width: 100%;
   background-color: #24262b;
-  padding: 70px 0;
+  padding: 50px 0;
 }
 .footer-col{
   width: 25%;
